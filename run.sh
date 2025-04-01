@@ -4,8 +4,8 @@
 # alias docker=podman
 
 echo "🛑 Stopping and removing existing containers..."
-podman stop $(docker ps -q) 2>/dev/null
-podman rm -f $(docker ps -aq) 2>/dev/null
+podman stop $(podman ps -q) 2>/dev/null
+podman rm -f $(podman ps -aq) 2>/dev/null
 
 echo "🛠 Building Maven project..."
 if ! mvn clean package; then
