@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 package com.example.sample;
+=======
+package com.example.servlet;
+>>>>>>> cca3507 (Step 2 - Add Navegation)
 
 import java.io.IOException;
 import jakarta.servlet.ServletException;
