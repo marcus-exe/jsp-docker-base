@@ -2,11 +2,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Welcome</title>
+    <jsp:include page="header.jsp"/>
+    <title>Projeto JSP</title>
 </head>
 <body>
-    <h1>Welcome to My JSP Application!</h1>
-    <p>Today's date is: <%= new java.util.Date() %></p>
-    <p>Feel free to explore the features of this application.</p>
+    <jsp:include page="menu.jsp"/>
+    <jsp:include page="footer.jsp"/>
 </body>
 </html>
